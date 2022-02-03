@@ -1,0 +1,22 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# RelayCircuit
+#
+DEF RelayCircuit U 0 40 Y Y 1 F N
+F0 "U" 0 200 50 H V C CNN
+F1 "RelayCircuit" 0 -250 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 0 -100 50 0 0 0 Relay Normal 0 C C
+S -200 100 200 -200 0 1 0 f
+S -150 50 150 -150 0 1 0 N
+X ~ ~ -150 -100 100 L 50 50 1 1 I
+X ~ ~ -150 0 100 L 50 50 1 1 I
+X ~ ~ 150 -100 100 R 50 50 1 1 I
+X ~ ~ 150 0 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,11 @@
+(sym_lib_table
+  (lib (name prechargerelay)(type Legacy)(uri ${KIPRJMOD}/prechargerelay.lib)(options "")(descr ""))
+  (lib (name motorcontroller)(type Legacy)(uri ${KIPRJMOD}/motorcontroller.lib)(options "")(descr ""))
+  (lib (name accumulator_segments)(type Legacy)(uri ${KIPRJMOD}/accumulator_segments.lib)(options "")(descr ""))
+  (lib (name blackboxmodel)(type Legacy)(uri ${KIPRJMOD}/blackboxmodel.lib)(options "")(descr ""))
+  (lib (name hv-)(type Legacy)(uri ${KIPRJMOD}/hv-.lib)(options "")(descr ""))
+  (lib (name blackboxmodelnoconnection)(type Legacy)(uri ${KIPRJMOD}/blackboxmodelnoconnection.lib)(options "")(descr ""))
+  (lib (name relaycircuit)(type Legacy)(uri ${KIPRJMOD}/relaycircuit.lib)(options "")(descr ""))
+  (lib (name prechargeblock)(type Legacy)(uri ${KIPRJMOD}/prechargeblock.lib)(options "")(descr ""))
+  (lib (name assembly)(type Legacy)(uri ${KIPRJMOD}/assembly.lib)(options "")(descr ""))
+)

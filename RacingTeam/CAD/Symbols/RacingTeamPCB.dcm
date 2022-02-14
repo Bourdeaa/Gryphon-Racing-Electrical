@@ -1,0 +1,85 @@
+EESchema-DOCLIB  Version 2.0  Date: Sun Feb 13 20:23:43 2022
+$CMP 4N25
+D DC Optocoupler Base Connected, Vce 30V, CTR 20%, Viso 2500V, DIP6
+K NPN DC Optocoupler Base Connected
+F https://www.vishay.com/docs/83725/4n25.pdf
+$ENDCMP
+$CMP 2N7000
+D 0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92
+K N-Channel MOSFET Logic-Level
+F https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF
+$ENDCMP
+#
+$CMP C
+D Unpolarized capacitor
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP Conn_01x02_Female
+D Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_01x06_Female
+D Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_01x02_Male
+D Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_01x06_Male
+D Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP D_Zener
+D Zener diode
+K diode
+F ~
+$ENDCMP
+#
+$CMP LM311
+D Voltage Comparator, DIP-8/SOIC-8
+K cmp open collector
+F https://www.st.com/resource/en/datasheet/lm311.pdf
+$ENDCMP
+#
+$CMP Jumper
+D Jumper, normally closed
+K jumper bridge link NC
+F ~
+$ENDCMP
+#
+$CMP NE555D
+D Precision Timers, 555 compatible, SOIC-8
+K single timer 555
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP LED
+D Light emitting diode
+K LED diode
+F ~
+$ENDCMP
+#
+$CMP R
+D Resistor
+K R res resistor
+F ~
+$ENDCMP
+#
+$CMP TP0610T
+D -0.18A Id, -60V Vds, P-Channel MOSFET, SOT-23
+K P-Channel MOSFET
+F http://www.vishay.com/docs/70209/70209.pdf
+$ENDCMP
+#
+#End Library

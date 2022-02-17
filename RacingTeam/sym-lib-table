@@ -1,7 +1,0 @@
-(sym_lib_table
-  (lib (name LM311)(type Legacy)(uri ${KIPRJMOD}/CAD/Symbols/LM311P.lib)(options "")(descr ""))
-  (lib (name LM311P)(type Legacy)(uri ${KIPRJMOD}/CAD/Symbols/LM311P.lib)(options "")(descr ""))
-  (lib (name GLV+)(type Legacy)(uri ${KIPRJMOD}/CAD/Symbols/GLV+.lib)(options "")(descr ""))
-  (lib (name GLV-)(type Legacy)(uri ${KIPRJMOD}/CAD/Symbols/LM311P.lib)(options "")(descr ""))
-  (lib (name RacingTeam-rescue)(type Legacy)(uri ${KIPRJMOD}/RacingTeam-rescue.lib)(options "")(descr ""))
-)

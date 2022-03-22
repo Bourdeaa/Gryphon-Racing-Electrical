@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name ESFSymbols)(type Legacy)(uri ${KIPRJMOD}/ESFSymbols.lib)(options "")(descr ""))
+  (lib (name hv+)(type Legacy)(uri "C:/Users/Ayden Bourdeau/Desktop/hv+.lib")(options "")(descr ""))
+)

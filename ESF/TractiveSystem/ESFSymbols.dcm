@@ -1,0 +1,14 @@
+EESchema-DOCLIB  Version 2.0  Date: Wed Feb 09 21:39:41 2022
+$CMP Conn_01x01
+D Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Fuse
+D Fuse
+K fuse
+F ~
+$ENDCMP
+#
+#End Library

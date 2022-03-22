@@ -1,0 +1,165 @@
+EESchema-LIBRARY Version 2.3  Date: Wed Feb 09 21:33:29 2022
+#encoding utf-8
+#
+# BlackBoxModel_NOConnection
+#
+DEF BlackBoxModel_NOConnection U 0 40 Y N 1 F N
+F0 "U" 0 250 50 H V C CNN
+F1 "BlackBoxModel_NOConnection" 0 -350 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -200 200 150 -300 0 1 0 f
+X ~ ~ 0 -300 100 D 50 50 1 1 I
+X ~ ~ 0 200 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Conn_01x01
+#
+DEF Conn_01x01 J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Conn_01x01" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -50 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Fuse
+#
+DEF Fuse F 0 0 N Y 1 F N
+F0 "F" 80 0 50 V V C CNN
+F1 "Fuse" -75 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+*Fuse*
+$ENDFPLIST
+DRAW
+S -30 -100 30 100 0 1 10 N
+P 2 0 1 0 0 100 0 -100 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# HV+
+#
+DEF HV+ U 0 40 Y Y 1 F N
+F0 "U" 0 100 50 H I C CNN
+F1 "HV+" 100 50 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 50 0 -150 50 -100 0 -150 -50 -100 50 -100 N
+X ~ ~ 0 50 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Accumulator_Segments
+#
+DEF Accumulator_Segments V1 0 40 Y N 1 F N
+F0 "V1" 0 200 50 H V C CNN
+F1 "Accumulator_Segments" 50 -250 50 H V C CNN
+F2 "" -50 0 50 H I C CNN
+F3 "" -50 0 50 H I C CNN
+DRAW
+T 0 100 50 50 0 0 0 + Normal 0 C C
+S -150 100 150 -150 0 0 0 N
+P 2 0 1 0 -150 -50 -150 -50 N
+P 2 0 1 0 -150 -50 -150 -50 N
+P 2 0 1 0 -150 -50 -150 -50 N
+P 2 0 1 0 -50 0 -50 -50 N
+P 2 0 1 0 50 -100 50 -100 N
+P 2 0 1 0 50 50 50 -100 N
+X ~ ~ -150 -50 100 L 50 50 1 1 I
+X ~ ~ 150 -50 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# PlugAssembly
+#
+DEF PlugAssembly U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "PlugAssembly" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -100 -50 100 -250 0 1 0 f
+ENDDRAW
+ENDDEF
+#
+# BlackBoxModel
+#
+DEF BlackBoxModel U 0 40 Y N 1 F N
+F0 "U" 0 250 50 H V C CNN
+F1 "BlackBoxModel" 0 -350 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -200 200 150 -300 0 1 0 f
+X ~ ~ -200 -150 100 L 50 50 1 1 I
+X ~ ~ -200 100 100 L 50 50 1 1 I
+X ~ ~ 150 -150 100 R 50 50 1 1 I
+X ~ ~ 150 100 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# HV-
+#
+DEF HV- U 0 40 Y Y 1 F N
+F0 "U" 0 100 50 H I C CNN
+F1 "HV-" 100 50 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 50 0 -150 50 -100 0 -150 -50 -100 50 -100 N
+X ~ ~ 0 50 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# MotorController
+#
+DEF MotorController U3 0 40 Y Y 1 F P
+F0 "U3" 0 500 50 H V C CNN
+F1 "MotorController" 0 -600 50 H V C CNN
+F2 "" 250 300 50 H I C CNN
+F3 "" 250 300 50 H I C CNN
+DRAW
+T 0 0 -50 50 0 0 0 CM200DZ Normal 0 C C
+S 300 -550 -300 450 0 1 0 N
+S 400 -550 400 -550 0 1 0 N
+X HV+ ~ -250 150 100 L 50 50 1 1 I
+X HV- ~ -250 -250 100 L 50 50 1 1 I
+X Phase_A ~ 300 350 100 R 50 50 1 1 O
+X Phase_B ~ 300 -50 100 R 50 50 1 1 O
+X Phase_C ~ 300 -450 100 R 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# Relay
+#
+DEF Relay U 0 40 Y Y 1 F N
+F0 "U" 0 200 50 H V C CNN
+F1 "Relay" 0 -250 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 0 -100 50 0 0 0 Relay Normal 0 C C
+S -200 100 200 -200 0 1 0 f
+S -150 50 150 -150 0 1 0 N
+X ~ ~ -150 -100 100 L 50 50 1 1 I
+X ~ ~ -150 0 100 L 50 50 1 1 I
+X ~ ~ 150 -100 100 R 50 50 1 1 I
+X ~ ~ 150 0 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

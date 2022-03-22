@@ -1,0 +1,43 @@
+PCBNEW-LibModule-V1 Sun Mar 20 21:20:14 2022
+# encoding utf-8
+Units mm
+$INDEX
+C_0603
+$EndINDEX
+$MODULE C_0603
+Po 0.0000 0.0000 0 -1 0 0 ~~
+Li C_0603
+At STD
+Cd Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+Kw capacitor handsolder
+T0 0.0000 -1.4300 1.0000 1.0000 0 0.1500 N V 21 N "REF**"
+T1 0.0000 1.4300 1.0000 1.0000 0 0.1500 N V 32 N "C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+DS -0.8000 0.4000 -0.8000 -0.4000 0.1000 32
+DS -0.8000 -0.4000 0.8000 -0.4000 0.1000 32
+DS 0.8000 -0.4000 0.8000 0.4000 0.1000 32
+DS 0.8000 0.4000 -0.8000 0.4000 0.1000 32
+DS -0.1463 -0.5100 0.1463 -0.5100 0.1200 21
+DS -0.1463 0.5100 0.1463 0.5100 0.1200 21
+DS -1.6500 0.7300 -1.6500 -0.7300 0.0500 30
+DS -1.6500 -0.7300 1.6500 -0.7300 0.0500 30
+DS 1.6500 -0.7300 1.6500 0.7300 0.0500 30
+DS 1.6500 0.7300 -1.6500 0.7300 0.0500 30
+$PAD
+Po -0.8625 0.0000
+Sh "1" R 1.0750 0.9500 0.0000 0.0000 0 0.25
+At SMD N 888000
+$EndPAD
+$PAD
+Po 0.8625 0.0000
+Sh "2" R 1.0750 0.9500 0.0000 0.0000 0 0.25
+At SMD N 888000
+$EndPAD
+T2 0.0000 0.0000 0.4000 0.4000 0 0.0600 N V 32 N "%R"
+$SHAPE3D
+Na ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
+Of 0.0000 0.0000 0.0000
+Sc 1.0000 1.0000 1.0000
+Ro 0.0000 0.0000 0.0000
+$EndSHAPE3D
+$EndMODULE C_0603
+$EndLIBRARY

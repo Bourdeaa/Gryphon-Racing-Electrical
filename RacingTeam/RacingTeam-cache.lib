@@ -27,6 +27,23 @@ X V+ 8 -100 300 150 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
+# Connector_Generic_Conn_01x01
+#
+DEF Connector_Generic_Conn_01x01 J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Connector_Generic_Conn_01x01" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -50 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Connector_Generic_Conn_01x02
 #
 DEF Connector_Generic_Conn_01x02 J 0 40 Y N 1 F N
@@ -87,21 +104,25 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_Fuse
+# Device_D
 #
-DEF Device_Fuse F 0 0 N Y 1 F N
-F0 "F" 80 0 50 V V C CNN
-F1 "Device_Fuse" -75 0 50 V V C CNN
-F2 "" -70 0 50 V I C CNN
+DEF Device_D D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "Device_D" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- *Fuse*
+ TO-???*
+ *_Diode_*
+ *SingleDiode*
+ D_*
 $ENDFPLIST
 DRAW
-S -30 -100 30 100 0 1 10 N
-P 2 0 1 0 0 100 0 -100 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
+P 2 0 1 10 -50 50 -50 -50 N
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 10 50 50 50 -50 -50 0 50 50 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -278,6 +299,28 @@ P 3 0 1 10 -50 -50 -50 50 -30 50 N
 P 4 0 1 10 50 -50 50 50 -50 0 50 -50 N
 X K 1 -150 0 100 R 50 50 1 1 P
 X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RacingTeamPCB_EC3SAW-24S12P
+#
+DEF RacingTeamPCB_EC3SAW-24S12P PS 0 30 Y Y 1 F N
+F0 "PS" 850 300 50 H V L CNN
+F1 "RacingTeamPCB_EC3SAW-24S12P" 850 200 50 H V L CNN
+F2 "SPAN02A12" 850 100 50 H I L CNN
+F3 "" 850 0 50 H I L CNN
+F4 "Isolated DC/DC Converters 9-36Vin 12Vout 250mA SIP8 Reg Iso" 875 0 50 H I L CNN "Description"
+F5 "11.6" 875 -100 50 H I L CNN "Height"
+F6 "Cincon" 875 -200 50 H I L CNN "Manufacturer_Name"
+DRAW
+P 5 0 1 6 200 100 800 100 800 -700 200 -700 200 100 N
+X -VIN 1 0 0 200 R 50 50 0 0 P
+X +VIN 2 0 -100 200 R 50 50 0 0 P
+X EN 3 0 -200 200 R 50 50 0 0 P
+X N.C._1 5 0 -300 200 R 50 50 0 0 P
+X +VOUT 6 0 -400 200 R 50 50 0 0 P
+X -VOUT 7 0 -500 200 R 50 50 0 0 P
+X N.C._2 8 0 -600 200 R 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
@@ -500,31 +543,6 @@ DRAW
 S -40 -100 40 100 0 1 10 N
 X ~ 1 0 150 50 D 50 50 1 1 P
 X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# RacingTeamPCB_SPAN02A-12
-#
-DEF RacingTeamPCB_SPAN02A-12 PS 0 30 Y Y 1 F N
-F0 "PS" 850 300 50 H V L CNN
-F1 "RacingTeamPCB_SPAN02A-12" 850 200 50 H V L CNN
-F2 "SPAN02A12" 850 100 50 H I L CNN
-F3 "https://datasheet.datasheetarchive.com/originals/distributors/DKDS-2/37032.pdf" 850 0 50 H I L CNN
-F4 "Isolated DC/DC Converters 9-18Vin 12Vout 167mA SIP8 Reg Iso" 850 -100 50 H I L CNN "Description"
-F5 "11.6" 850 -200 50 H I L CNN "Height"
-F6 "709-SPAN02A-12" 850 -300 50 H I L CNN "Mouser Part Number"
-F7 "https://www.mouser.co.uk/ProductDetail/MEAN-WELL/SPAN02A-12?qs=5aG0NVq1C4wxQqKsG84AkQ%3D%3D" 850 -400 50 H I L CNN "Mouser Price/Stock"
-F8 "Mean Well" 850 -500 50 H I L CNN "Manufacturer_Name"
-F9 "SPAN02A-12" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
-DRAW
-P 5 0 1 6 200 100 800 100 800 -700 200 -700 200 100 N
-X -VIN 1 0 0 200 R 50 50 0 0 P
-X +VIN 2 0 -100 200 R 50 50 0 0 P
-X R.C. 3 0 -200 200 R 50 50 0 0 P
-X N.C._1 5 0 -300 200 R 50 50 0 0 P
-X +VOUT 6 0 -400 200 R 50 50 0 0 P
-X -VOUT 7 0 -500 200 R 50 50 0 0 P
-X N.C._2 8 0 -600 200 R 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #

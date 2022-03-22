@@ -1,3 +1,2 @@
 (fp_lib_table
-  (lib (name Footprints)(type Legacy)(uri ${KIPRJMOD}/CAD/Footprints/Footprints.mod)(options "")(descr ""))
 )

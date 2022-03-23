@@ -1480,8 +1480,6 @@ Wire Wire Line
 Connection ~ 850  6700
 Wire Wire Line
 	850  6700 850  6800
-Wire Wire Line
-	1450 6100 1450 5250
 Text GLabel 2600 6750 0    25   Input ~ 0
 Shutdown-
 $Comp
@@ -5778,4 +5776,33 @@ F 3 "~" H 6100 6200 50  0001 C CNN
 $EndComp
 Text Notes 5250 3300 0    39   ~ 0
 If=10mA
+$Comp
+L RacingTeamPCB:D_Zener D7
+U 1 1 623A0BC8
+P 1700 5600
+F 0 "D7" V 1654 5680 50  0000 L CNN
+F 1 "12V" V 1745 5680 50  0000 L CNN
+F 2 "" H 1700 5600 50  0001 C CNN
+F 3 "~" H 1700 5600 50  0001 C CNN
+	1    1700 5600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 623A5352
+P 1700 5750
+F 0 "#PWR?" H 1700 5500 50  0001 C CNN
+F 1 "GND" H 1705 5577 50  0000 C CNN
+F 2 "" H 1700 5750 50  0001 C CNN
+F 3 "" H 1700 5750 50  0001 C CNN
+	1    1700 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 5450 1700 5450
+Wire Wire Line
+	1450 5250 1450 5450
+Connection ~ 1450 5450
+Wire Wire Line
+	1450 5450 1450 6100
 $EndSCHEMATC

@@ -1,1 +1,148 @@
+1648354175000
+GRC2022
+CUI_TBL001-500-02GY-2GY
+
+
 0
+4
+2
+GRC2022
+CUI_TBL001-500-02GY-2GY_v2
+
+
+0
+4
+4
+GRC2022
+C_0603
+Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor handsolder
+0
+2
+2
+GRC2022
+DualPinHeader
+Through hole straight pin header, 1x02, 2.54mm pitch, single row
+Through hole pin header THT 1x02 2.54mm single row
+0
+2
+2
+GRC2022
+EC3SAW-24S12P
+
+
+0
+7
+7
+GRC2022
+FUSE_0154004.DRTL
+
+
+0
+2
+2
+GRC2022
+Molex
+WR-BHD 2.54mm Male Box Header, 6 Pins
+
+0
+6
+6
+GRC2022
+NE555PSRE4
+
+
+0
+8
+8
+GRC2022
+OPTO_4N35SM
+
+
+0
+6
+6
+GRC2022
+R_0603
+Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+GRC2022
+R_0805
+Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+GRC2022
+SD0805S040S0R5
+Diode SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+diode handsolder
+0
+2
+2
+GRC2022
+SOD57-10
+<B>DIODE</B><p>diameter 4 mm, vertical, grid 10.16 mm
+
+0
+2
+2
+GRC2022
+SOD57-10_v2
+<B>DIODE</B><p>diameter 4 mm, vertical, grid 10.16 mm
+
+0
+2
+2
+GRC2022
+SOP65P640X120-8N
+
+
+0
+8
+8
+GRC2022
+SOP65P640X120-8N_v2
+
+
+0
+8
+8
+GRC2022
+SOT95P280X100-6N
+
+
+0
+6
+6
+GRC2022
+SinglePinHeader
+Through hole straight pin header, 1x01, 2.54mm pitch, single row
+Through hole pin header THT 1x01 2.54mm single row
+0
+1
+1
+GRC2022
+SunLED
+Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+GRC2022
+TE_8PCV-02-006
+
+
+0
+2
+2
+GRC2022
+TRANS_MMBT2907A
+
+
+0
+3
+3

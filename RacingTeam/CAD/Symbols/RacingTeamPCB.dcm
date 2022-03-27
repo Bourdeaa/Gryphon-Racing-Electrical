@@ -22,18 +22,6 @@ K connector
 F ~
 $ENDCMP
 #
-$CMP Conn_01x02_Female
-D Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
-K connector
-F ~
-$ENDCMP
-#
-$CMP Conn_01x06_Female
-D Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)
-K connector
-F ~
-$ENDCMP
-#
 $CMP D
 D Diode
 K diode
@@ -48,15 +36,21 @@ D Bidirectional transient-voltage-suppression diode
 K diode TVS thyrector
 F ~
 $ENDCMP
+#
 $CMP GLV+
-D Quad Nor 2 inputs
-K CMOS Nor2
-F http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf
+D Power symbol creates a global label with name "+3V3"
+K power-flag
 $ENDCMP
+#
 $CMP GLV-
-D Quad Nor 2 inputs
-K CMOS Nor2
-F http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf
+D Power symbol creates a global label with name "+3V3"
+K power-flag
+$ENDCMP
+#
+$CMP Jumper
+D Jumper, normally closed
+K jumper bridge link NC
+F ~
 $ENDCMP
 #
 $CMP D_Zener
@@ -69,12 +63,6 @@ $CMP LM311
 D Voltage Comparator, DIP-8/SOIC-8
 K cmp open collector
 F https://www.st.com/resource/en/datasheet/lm311.pdf
-$ENDCMP
-#
-$CMP Jumper
-D Jumper, normally closed
-K jumper bridge link NC
-F ~
 $ENDCMP
 #
 $CMP NE555D

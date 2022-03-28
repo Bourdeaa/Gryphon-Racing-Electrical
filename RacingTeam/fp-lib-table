@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name GRC2022)(type Legacy)(uri ${KIPRJMOD}/CAD/Footprints/GRC2022.mod)(options "")(descr ""))
+  (lib (name Footprints)(type KiCad)(uri ${KIPRJMOD}/CAD/Footprints)(options "")(descr ""))
 )

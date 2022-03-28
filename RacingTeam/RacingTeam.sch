@@ -30,7 +30,7 @@ Connection ~ 750  3300
 Wire Wire Line
 	750  3300 750  3350
 Wire Wire Line
-	1300 2250 1400 2250
+	1300 2250 1450 2250
 Wire Wire Line
 	2300 2250 2300 2700
 $Comp
@@ -1657,7 +1657,7 @@ F 3 "" H 750 2950 50  0001 C CNN
 	1    750  2950
 	1    0    0    -1  
 $EndComp
-Text Label 1550 3300 0    25   ~ 0
+Text Label 750  3300 0    25   ~ 0
 TSALREF
 Text Label 1650 2250 0    25   ~ 0
 TSALBus
@@ -1665,10 +1665,6 @@ Text Label 3450 2700 0    25   ~ 0
 LM311V+
 Text Label 3400 3300 0    25   ~ 0
 LM311V-
-Text Label 3900 2600 1    25   ~ 0
-LM311Power+
-Text Label 4250 3350 2    25   ~ 0
-LM311Power-
 $Comp
 L RacingTeamPCB:C C3
 U 1 1 621E16AD
@@ -1920,8 +1916,6 @@ F 3 "" H 2950 950 50  0001 C CNN
 	1    2950 950 
 	1    0    0    -1  
 $EndComp
-Text Label 5150 2900 0    25   ~ 0
-OptoIn
 Text Label 4600 3000 0    25   ~ 0
 CompOut
 Connection ~ 4450 3000
@@ -5386,12 +5380,12 @@ $EndComp
 $Comp
 L RacingTeamPCB:GLV- #U010
 U 1 1 623FD30F
-P 8500 4550
-F 0 "#U010" H 8422 4504 50  0001 R CNN
-F 1 "GLV-" H 8600 4400 50  0000 R CNN
-F 2 "" H 8500 4550 50  0001 C CNN
-F 3 "" H 8500 4550 50  0001 C CNN
-	1    8500 4550
+P 8500 4650
+F 0 "#U010" H 8422 4604 50  0001 R CNN
+F 1 "GLV-" H 8600 4500 50  0000 R CNN
+F 2 "" H 8500 4650 50  0001 C CNN
+F 3 "" H 8500 4650 50  0001 C CNN
+	1    8500 4650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -5427,7 +5421,7 @@ Connection ~ 3950 6250
 Wire Wire Line
 	8650 5950 8650 6050
 Wire Wire Line
-	8650 6050 8900 6050
+	8650 6050 8800 6050
 Wire Wire Line
 	8650 6250 8650 6150
 NoConn ~ 9200 5950
@@ -5605,13 +5599,13 @@ Wire Wire Line
 $Comp
 L Connector:Screw_Terminal_01x02 J8
 U 1 1 625195F4
-P 6300 5750
-F 0 "J8" H 6380 5742 50  0000 L CNN
-F 1 "Discharge Relay Out" H 6380 5651 50  0000 L CNN
-F 2 "GRC2022:CUI_TBL001-500-02GY-2GY" H 6300 5750 50  0001 C CNN
-F 3 "~" H 6300 5750 50  0001 C CNN
-	1    6300 5750
-	1    0    0    -1  
+P 6300 5850
+F 0 "J8" H 6380 5842 50  0000 L CNN
+F 1 "Discharge Relay Out" H 6380 5751 50  0000 L CNN
+F 2 "GRC2022:CUI_TBL001-500-02GY-2GY" H 6300 5850 50  0001 C CNN
+F 3 "~" H 6300 5850 50  0001 C CNN
+	1    6300 5850
+	1    0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR016
@@ -5721,16 +5715,16 @@ $EndComp
 $Comp
 L Device:Fuse_Small F3
 U 1 1 6247AD1E
-P 9000 6050
-F 0 "F3" H 9000 6143 50  0000 C CNN
-F 1 "Fuse_Small" H 9000 6144 50  0001 C CNN
-F 2 "GRC2022:FUSE_0154004.DRTL" H 9000 6050 50  0001 C CNN
-F 3 "~" H 9000 6050 50  0001 C CNN
-	1    9000 6050
+P 8900 6050
+F 0 "F3" H 8900 6143 50  0000 C CNN
+F 1 "Fuse_Small" H 8900 6144 50  0001 C CNN
+F 2 "GRC2022:FUSE_0154004.DRTL" H 8900 6050 50  0001 C CNN
+F 3 "~" H 8900 6050 50  0001 C CNN
+	1    8900 6050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9100 6050 9200 6050
+	9000 6050 9200 6050
 $Comp
 L Device:Fuse_Small F5
 U 1 1 624850B7
@@ -5772,27 +5766,27 @@ Wire Wire Line
 $Comp
 L Device:Fuse_Small F1
 U 1 1 62489769
-P 1500 2250
-F 0 "F1" H 1500 2300 50  0000 C CNN
-F 1 "Fuse_Small" H 1150 2450 50  0001 C CNN
-F 2 "GRC2022:FUSE_0154004.DRTL" H 1500 2250 50  0001 C CNN
-F 3 "~" H 1500 2250 50  0001 C CNN
-	1    1500 2250
+P 1550 2250
+F 0 "F1" H 1550 2300 50  0000 C CNN
+F 1 "Fuse_Small" H 1200 2450 50  0001 C CNN
+F 2 "GRC2022:FUSE_0154004.DRTL" H 1550 2250 50  0001 C CNN
+F 3 "~" H 1550 2250 50  0001 C CNN
+	1    1550 2250
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	1600 2250 2050 2250
+	1650 2250 2050 2250
 Wire Wire Line
 	8650 6150 9200 6150
 $Comp
 L RacingTeamPCB:R R28
 U 1 1 623FD309
-P 8500 4400
-F 0 "R28" H 8700 4500 50  0000 C CNN
-F 1 "499Ω" H 8700 4400 50  0000 C CNN
-F 2 "GRC2022:R_0603" V 8430 4400 50  0001 C CNN
-F 3 "~" H 8500 4400 50  0001 C CNN
-	1    8500 4400
+P 8500 4500
+F 0 "R28" H 8700 4600 50  0000 C CNN
+F 1 "499Ω" H 8700 4500 50  0000 C CNN
+F 2 "GRC2022:R_0603" V 8430 4500 50  0001 C CNN
+F 3 "~" H 8500 4500 50  0001 C CNN
+	1    8500 4500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -5815,23 +5809,23 @@ $EndComp
 $Comp
 L RacingTeamPCB:GLV- #U015
 U 1 1 61E548C8
-P 10800 2400
-F 0 "#U015" H 10722 2354 50  0001 R CNN
-F 1 "GLV-" H 10900 2250 50  0000 R CNN
-F 2 "" H 10800 2400 50  0001 C CNN
-F 3 "" H 10800 2400 50  0001 C CNN
-	1    10800 2400
+P 10800 2500
+F 0 "#U015" H 10722 2454 50  0001 R CNN
+F 1 "GLV-" H 10900 2350 50  0000 R CNN
+F 2 "" H 10800 2500 50  0001 C CNN
+F 3 "" H 10800 2500 50  0001 C CNN
+	1    10800 2500
 	1    0    0    -1  
 $EndComp
 $Comp
 L RacingTeamPCB:R R32
 U 1 1 61E53E52
-P 10800 2250
-F 0 "R32" H 10600 2250 50  0000 C CNN
-F 1 "499Ω" H 10600 2150 50  0000 C CNN
-F 2 "GRC2022:R_0603" V 10730 2250 50  0001 C CNN
-F 3 "~" H 10800 2250 50  0001 C CNN
-	1    10800 2250
+P 10800 2350
+F 0 "R32" H 10600 2350 50  0000 C CNN
+F 1 "499Ω" H 10600 2250 50  0000 C CNN
+F 2 "GRC2022:R_0603" V 10730 2350 50  0001 C CNN
+F 3 "~" H 10800 2350 50  0001 C CNN
+	1    10800 2350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -5881,8 +5875,8 @@ Text Label 3350 6800 0    25   ~ 0
 PrechargeOUT
 Text Label 1550 7100 0    25   ~ 0
 PrechargeTP-
-Text Label 1550 6500 0    25   ~ 0
-PrechargeTP+
+Text Label 1250 5650 0    25   ~ 0
+PrechargeRef
 Text Label 1000 7100 0    25   ~ 0
 PrechargeRef
 Text GLabel 5400 5100 0    25   Input ~ 0
@@ -5961,4 +5955,46 @@ Text Notes 8700 3450 0    79   ~ 16
 ConnectorsIn\n\n
 Text GLabel 8650 6150 0    25   Input ~ 0
 Shutdown-
+Text Label 1550 6300 1    25   ~ 0
+PrechargeTP+
+Text Label 1300 2250 0    25   ~ 0
+TSALRef
+Text Label 1500 3300 0    25   ~ 0
+TSALCommon
+Text Label 6900 1950 0    25   ~ 0
+555Reset
+Text Label 8700 1950 0    25   ~ 0
+555Trigger
+Text Label 9050 1450 0    25   ~ 0
+555DischargePullup
+Text Label 7000 1650 0    25   ~ 0
+555Bypass
+Text Label 8800 1550 0    25   ~ 0
+555Ouput
+Text Label 9750 1250 0    25   ~ 0
+555Drive
+Text Label 10800 1800 0    25   ~ 0
+OBLEDRed
+Text Label 10800 2200 0    25   ~ 0
+OBLEDResistorRed
+Wire Wire Line
+	10800 2100 10800 2200
+Text Label 8400 3950 0    25   ~ 0
+OBLEDGreen
+Text Label 8500 4350 0    25   ~ 0
+OBLEDResistorGreen
+Wire Wire Line
+	8500 4250 8500 4350
+Text Label 6100 5450 0    25   ~ 0
+DischargeIn
+Text Label 6100 6000 0    25   ~ 0
+DischargeOut
+Text Label 4550 6750 0    25   ~ 0
+AIROut
+Text Label 3650 5750 0    25   ~ 0
+PrechargeRelayOut
+Text Notes 2700 6400 0    25   ~ 0
+How drive?\n
+Text Label 9050 6050 0    25   ~ 0
+Ec3Out+
 $EndSCHEMATC

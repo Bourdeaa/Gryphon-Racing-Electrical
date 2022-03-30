@@ -173,17 +173,6 @@ Wire Wire Line
 	9700 1250 9900 1250
 Wire Wire Line
 	8500 1550 9400 1550
-$Comp
-L RacingTeamPCB:GLV- #U011
-U 1 1 61E50A07
-P 9700 1750
-F 0 "#U011" H 9622 1704 50  0001 R CNN
-F 1 "GLV-" H 9800 1600 50  0000 R CNN
-F 2 "" H 9700 1750 50  0001 C CNN
-F 3 "" H 9700 1750 50  0001 C CNN
-	1    9700 1750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9700 1250 9700 1350
 Connection ~ 9700 1250
@@ -297,17 +286,6 @@ F 3 "http://www.vishay.com/docs/70209/70209.pdf" H 7700 3400 50  0001 L CNN
 $EndComp
 Text GLabel 7800 3750 0    25   Input ~ 0
 Green+
-$Comp
-L RacingTeamPCB:GLV- #U04
-U 1 1 61F703AB
-P 6200 3800
-F 0 "#U04" H 6200 3675 50  0001 C CNN
-F 1 "GLV-" H 6400 3850 50  0000 R CNN
-F 2 "" H 6200 3800 50  0001 C CNN
-F 3 "" H 6200 3800 50  0001 C CNN
-	1    6200 3800
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR06
 U 1 1 61DCC994
@@ -1458,17 +1436,6 @@ F 3 "" H 8650 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L RacingTeamPCB:D D7
-U 1 1 621F41DC
-P 8450 5950
-F 0 "D7" H 8450 5850 50  0000 C CNN
-F 1 "D" H 8450 6076 50  0001 C CNN
-F 2 "GRC2022:SD0805S040S0R5" H 8450 5950 50  0001 C CNN
-F 3 "~" H 8450 5950 50  0001 C CNN
-	1    8450 5950
-	1    0    0    -1  
-$EndComp
-$Comp
 L RacingTeamPCB:Conn_01x06 J9
 U 1 1 622055CC
 P 10650 5900
@@ -1806,28 +1773,6 @@ F 3 "" H 4550 6050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4550 6450 4550 6550
-$Comp
-L RacingTeamPCB:GLV- #U09
-U 1 1 621D6E85
-P 8200 6250
-F 0 "#U09" H 8122 6204 50  0001 R CNN
-F 1 "GLV-" H 8300 6100 50  0000 R CNN
-F 2 "" H 8200 6250 50  0001 C CNN
-F 3 "" H 8200 6250 50  0001 C CNN
-	1    8200 6250
-	1    0    0    -1  
-$EndComp
-$Comp
-L RacingTeamPCB:GLV+ #U08
-U 1 1 62200FFB
-P 8200 5950
-F 0 "#U08" H 8278 5988 50  0001 L CNN
-F 1 "GLV+" H 8100 6100 50  0000 L CNN
-F 2 "" H 8200 5950 50  0001 C CNN
-F 3 "" H 8200 5950 50  0001 C CNN
-	1    8200 5950
-	1    0    0    -1  
-$EndComp
 $Comp
 L RacingTeamPCB:GLV+ #U05
 U 1 1 61E73533
@@ -5377,17 +5322,6 @@ F 3 "~" H 8500 4100 50  0001 C CNN
 	1    8500 4100
 	0    -1   -1   0   
 $EndComp
-$Comp
-L RacingTeamPCB:GLV- #U010
-U 1 1 623FD30F
-P 8500 4650
-F 0 "#U010" H 8422 4604 50  0001 R CNN
-F 1 "GLV-" H 8600 4500 50  0000 R CNN
-F 2 "" H 8500 4650 50  0001 C CNN
-F 3 "" H 8500 4650 50  0001 C CNN
-	1    8500 4650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7800 3600 7800 3950
 $Comp
@@ -5599,13 +5533,13 @@ Wire Wire Line
 $Comp
 L Connector:Screw_Terminal_01x02 J8
 U 1 1 625195F4
-P 6300 5750
-F 0 "J8" H 6380 5742 50  0000 L CNN
-F 1 "Discharge Relay Out" H 6380 5651 50  0000 L CNN
-F 2 "GRC2022:CUI_TBL001-500-02GY-2GY" H 6300 5750 50  0001 C CNN
-F 3 "~" H 6300 5750 50  0001 C CNN
-	1    6300 5750
-	1    0    0    -1  
+P 6300 5850
+F 0 "J8" H 6380 5842 50  0000 L CNN
+F 1 "Discharge Relay Out" H 6380 5751 50  0000 L CNN
+F 2 "GRC2022:CUI_TBL001-500-02GY-2GY" H 6300 5850 50  0001 C CNN
+F 3 "~" H 6300 5850 50  0001 C CNN
+	1    6300 5850
+	1    0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR016
@@ -5807,17 +5741,6 @@ F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 9600 1550 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L RacingTeamPCB:GLV- #U015
-U 1 1 61E548C8
-P 10800 2500
-F 0 "#U015" H 10722 2454 50  0001 R CNN
-F 1 "GLV-" H 10900 2350 50  0000 R CNN
-F 2 "" H 10800 2500 50  0001 C CNN
-F 3 "" H 10800 2500 50  0001 C CNN
-	1    10800 2500
-	1    0    0    -1  
-$EndComp
-$Comp
 L RacingTeamPCB:R R32
 U 1 1 61E53E52
 P 10800 2350
@@ -5876,33 +5799,20 @@ PrechargeOUT
 Text Label 1550 7100 0    25   ~ 0
 PrechargeTP-
 Text Label 1250 5650 0    25   ~ 0
-PrechargeRef
+PrechargeRef1
 Text Label 1000 7100 0    25   ~ 0
-PrechargeRef
+PrechargeRef2
 Text GLabel 5400 5100 0    25   Input ~ 0
 PreChargeOn
 Text GLabel 6300 5100 0    25   Input ~ 0
 AIROn
 Connection ~ 10200 850 
-$Comp
-L RacingTeamPCB:GLV- #U07
-U 1 1 61E5FC5D
-P 8000 2650
-F 0 "#U07" H 7922 2604 50  0001 R CNN
-F 1 "GLV-" H 8250 2600 50  0000 R CNN
-F 2 "" H 8000 2650 50  0001 C CNN
-F 3 "" H 8000 2650 50  0001 C CNN
-	1    8000 2650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8000 2450 8000 2650
 Wire Wire Line
 	8300 5950 8200 5950
 Wire Wire Line
 	8200 6250 8650 6250
-Text Label 8250 5950 0    25   ~ 0
-GLV+
 $Comp
 L Connector:Screw_Terminal_01x02 J10
 U 1 1 624243D7
@@ -5949,12 +5859,8 @@ F 3 "~" H 10050 4150 50  0001 C CNN
 $EndComp
 Text GLabel 9850 4150 0    25   Input ~ 0
 Shutdown+
-Text GLabel 9850 4250 0    25   Input ~ 0
-Shutdown-
 Text Notes 8700 3450 0    79   ~ 16
 ConnectorsIn\n\n
-Text GLabel 8650 6150 0    25   Input ~ 0
-Shutdown-
 Text Label 1550 6300 1    25   ~ 0
 PrechargeTP+
 Text Label 1300 2250 0    25   ~ 0
@@ -5997,4 +5903,107 @@ Text Notes 2700 6400 0    25   ~ 0
 How drive?\n
 Text Label 9050 6050 0    25   ~ 0
 Ec3Out+
+$Comp
+L RacingTeamPCB:GLV- #U0101
+U 1 1 62490A8F
+P 9850 4250
+F 0 "#U0101" H 9772 4204 50  0001 R CNN
+F 1 "GLV-" H 9950 4400 50  0000 R CNN
+F 2 "" H 9850 4250 50  0001 C CNN
+F 3 "" H 9850 4250 50  0001 C CNN
+	1    9850 4250
+	-1   0    0    1   
+$EndComp
+$Comp
+L RacingTeamPCB:GLV- #U09
+U 1 1 621D6E85
+P 8200 6250
+F 0 "#U09" H 8122 6204 50  0001 R CNN
+F 1 "GLV-" H 8300 6400 50  0000 R CNN
+F 2 "" H 8200 6250 50  0001 C CNN
+F 3 "" H 8200 6250 50  0001 C CNN
+	1    8200 6250
+	-1   0    0    1   
+$EndComp
+$Comp
+L RacingTeamPCB:GLV- #U015
+U 1 1 61E548C8
+P 10800 2500
+F 0 "#U015" H 10722 2454 50  0001 R CNN
+F 1 "GLV-" H 10900 2650 50  0000 R CNN
+F 2 "" H 10800 2500 50  0001 C CNN
+F 3 "" H 10800 2500 50  0001 C CNN
+	1    10800 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L RacingTeamPCB:GLV- #U011
+U 1 1 61E50A07
+P 9700 1750
+F 0 "#U011" H 9622 1704 50  0001 R CNN
+F 1 "GLV-" H 9800 1900 50  0000 R CNN
+F 2 "" H 9700 1750 50  0001 C CNN
+F 3 "" H 9700 1750 50  0001 C CNN
+	1    9700 1750
+	-1   0    0    1   
+$EndComp
+$Comp
+L RacingTeamPCB:GLV- #U07
+U 1 1 61E5FC5D
+P 8000 2650
+F 0 "#U07" H 7922 2604 50  0001 R CNN
+F 1 "GLV-" H 8100 2800 50  0000 R CNN
+F 2 "" H 8000 2650 50  0001 C CNN
+F 3 "" H 8000 2650 50  0001 C CNN
+	1    8000 2650
+	-1   0    0    1   
+$EndComp
+$Comp
+L RacingTeamPCB:GLV+ #U08
+U 1 1 62200FFB
+P 8200 5950
+F 0 "#U08" H 8278 5988 50  0001 L CNN
+F 1 "GLV+" H 8100 6100 50  0000 L CNN
+F 2 "" H 8200 5950 50  0001 C CNN
+F 3 "" H 8200 5950 50  0001 C CNN
+	1    8200 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L RacingTeamPCB:GLV- #U010
+U 1 1 623FD30F
+P 8500 4650
+F 0 "#U010" H 8422 4604 50  0001 R CNN
+F 1 "GLV-" H 8600 4800 50  0000 R CNN
+F 2 "" H 8500 4650 50  0001 C CNN
+F 3 "" H 8500 4650 50  0001 C CNN
+	1    8500 4650
+	-1   0    0    1   
+$EndComp
+$Comp
+L RacingTeamPCB:D D7
+U 1 1 621F41DC
+P 8450 5950
+F 0 "D7" H 8450 5850 50  0000 C CNN
+F 1 "D" H 8450 6076 50  0001 C CNN
+F 2 "GRC2022:SD0805S040S0R5" H 8450 5950 50  0001 C CNN
+F 3 "~" H 8450 5950 50  0001 C CNN
+	1    8450 5950
+	1    0    0    -1  
+$EndComp
+Text Label 8200 5950 0    25   ~ 0
+GLV+
+$Comp
+L RacingTeamPCB:GLV- #U04
+U 1 1 61F703AB
+P 6200 3800
+F 0 "#U04" H 6200 3675 50  0001 C CNN
+F 1 "GLV-" H 6300 3950 50  0000 R CNN
+F 2 "" H 6200 3800 50  0001 C CNN
+F 3 "" H 6200 3800 50  0001 C CNN
+	1    6200 3800
+	-1   0    0    1   
+$EndComp
+Text GLabel 8650 6150 0    25   Input ~ 0
+Shutdown-
 $EndSCHEMATC

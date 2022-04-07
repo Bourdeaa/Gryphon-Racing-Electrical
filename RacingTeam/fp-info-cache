@@ -1,4 +1,4 @@
-18922887505288118
+18922887708667418
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -51583,6 +51583,13 @@ GRC22Footprints
 3
 3
 GRC22Footprints
+CONV_SPBW06F-12
+
+
+0
+7
+7
+GRC22Footprints
 CUI_TBL001-500-02GY-2GY
 
 
@@ -51631,6 +51638,13 @@ LM311PW
 0
 8
 8
+GRC22Footprints
+MOLEX_2002411114
+
+
+0
+4
+4
 GRC22Footprints
 Molex
 WR-BHD 2.54mm Male Box Header, 6 Pins

@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name GRC22Symbols)(type Legacy)(uri ${KIPRJMOD}/CAD/Symbols/GRC22Symbols.lib)(options "")(descr ""))
-)

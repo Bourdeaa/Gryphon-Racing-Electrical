@@ -1,4 +1,3 @@
 (sym_lib_table
   (lib (name GRC22Symbols)(type Legacy)(uri ${KIPRJMOD}/CAD/Symbols/GRC22Symbols.lib)(options "")(descr ""))
-  (lib (name -shutdown)(type Legacy)(uri "C:/Users/Ayden Bourdeau/Desktop/-shutdown.lib")(options "")(descr ""))
 )

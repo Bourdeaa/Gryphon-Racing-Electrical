@@ -5216,19 +5216,19 @@ L ESFSymbols:Conn_01x01 J?
 U 1 1 61ADD724
 P 3150 2600
 F 0 "J?" H 3068 2375 50  0001 C CNN
-F 1 "2226742-3" H 3250 2700 50  0000 C CNN
+F 1 "2226742-3" H 3525 2705 50  0000 C CNN
 F 2 "" H 3150 2600 50  0001 C CNN
 F 3 "~" H 3150 2600 50  0001 C CNN
 	1    3150 2600
 	-1   0    0    1   
 $EndComp
-Text Notes 2750 2400 0    59   ~ 0
+Text Notes 2530 2395 0    59   ~ 0
 Wire-BusBar\n
 Text Notes 5000 4950 0    59   ~ 0
 Fuse-HV(+)\n
-Text Notes 2490 2960 0    59   ~ 0
+Text Notes 2565 2940 0    59   ~ 0
 AIR-HV(-)
-Text Notes 2850 2500 0    50   ~ 0
+Text Notes 2595 2500 0    50   ~ 0
 Connector
 Text Notes 5450 5050 2    50   ~ 0
 Connector
@@ -5240,7 +5240,7 @@ Text Notes 8000 3650 0    50   ~ 0
 NO
 Text Notes 7050 3600 0    50   ~ 0
 NO
-Text Notes 2540 3060 0    50   ~ 0
+Text Notes 2605 3045 0    50   ~ 0
 Connector
 Wire Wire Line
 	5600 5200 5600 5700
@@ -5343,7 +5343,7 @@ Wire Bus Line
 Text Notes 7000 2750 0    50   ~ 0
 Copper BusBar 38mm^2
 $Bitmap
-Pos 9400 2200
+Pos 10200 1815
 Scale 0.400000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 04 76 00 00 03 04 08 02 00 00 00 55 1E 35 
@@ -6798,16 +6798,16 @@ C4 02 00 00 00 80 D4 10 B1 00 00 00 00 20 35 44 2C 00 00 00 00 48 0D 11 0B 00 00
 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
-Text Notes 8850 1650 0    50   ~ 0
+Text Notes 9650 1265 0    50   ~ 0
 Maintenance Plug Assembly
 Wire Notes Line style solid rgb(194, 4, 0)
-	8550 2750 10250 2750
+	9350 2365 11050 2365
 Wire Notes Line style solid rgb(194, 0, 18)
-	10250 2750 10250 1500
+	11050 2365 11050 1115
 Wire Notes Line style solid rgb(194, 15, 6)
-	10250 1500 8550 1500
+	11050 1115 9350 1115
 Wire Notes Line style solid rgb(194, 3, 7)
-	8550 1500 8550 2750
+	9350 1115 9350 2365
 Wire Notes Line style solid rgb(194, 13, 6)
 	7950 2700 7950 2300
 Wire Notes Line style solid rgb(194, 0, 10)
@@ -6891,9 +6891,9 @@ Text Notes 8050 4300 0    50   ~ 0
 Connector
 Text Notes 7950 4200 0    59   ~ 0
 Wire-BusBar\n
-Text Notes 8750 2500 0    50   ~ 0
+Text Notes 9550 2115 0    50   ~ 0
 2226744-7
-Text Notes 8750 2150 0    50   ~ 0
+Text Notes 9550 1765 0    50   ~ 0
 2226752-3
 Wire Wire Line
 	3600 3240 3600 3130
@@ -7118,12 +7118,12 @@ Wire Wire Line
 $Comp
 L ESFSymbols:BlackBoxModel_NOConnection U?
 U 1 1 62562F1C
-P 3350 4010
-F 0 "U?" H 3528 4006 50  0001 L CNN
-F 1 "HVD" H 3270 3970 37  0000 L CNN
-F 2 "" H 3350 4010 50  0001 C CNN
-F 3 "" H 3350 4010 50  0001 C CNN
-	1    3350 4010
+P 1945 4010
+F 0 "U?" H 2123 4006 50  0001 L CNN
+F 1 "HVD" H 1865 3970 37  0000 L CNN
+F 2 "" H 1945 4010 50  0001 C CNN
+F 3 "" H 1945 4010 50  0001 C CNN
+	1    1945 4010
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -7167,15 +7167,18 @@ F 3 "" H 4650 4400 50  0001 C CNN
 $EndComp
 Text Notes 5000 4150 2    50   ~ 0
 To Discharge Control
-$Comp
-L ESFSymbols:HV+ U?
-U 1 1 625638F8
-P 4850 4300
-F 0 "U?" H 4850 4400 50  0001 C CNN
-F 1 "HV+" H 4950 4300 50  0001 L CNN
-F 2 "" H 4850 4300 50  0001 C CNN
-F 3 "" H 4850 4300 50  0001 C CNN
-	1    4850 4300
-	-1   0    0    1   
-$EndComp
+Wire Wire Line
+	3350 3710 1945 3710
+Wire Wire Line
+	3350 4210 1945 4210
+Wire Notes Line
+	2490 1635 2490 5765
+Wire Notes Line
+	2490 5765 9205 5760
+Wire Notes Line
+	2490 1635 9205 1630
+Wire Notes Line
+	9205 1635 9205 5765
+Text Notes 2585 1905 0    79   ~ 0
+Accumulator Container\n
 $EndSCHEMATC

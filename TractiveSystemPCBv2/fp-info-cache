@@ -1,4 +1,4 @@
-18922887708667418
+18965668212860584
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -51568,153 +51568,6 @@ Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560
 0
 2
 2
-GRC22Footprints
-2N7002H6327XTSA2
-
-
-0
-3
-3
-GRC22Footprints
-2N7002H6327XTSA2_v2
-
-
-0
-3
-3
-GRC22Footprints
-CONV_SPBW06F-12
-
-
-0
-7
-7
-GRC22Footprints
-CUI_TBL001-500-02GY-2GY
-
-
-0
-4
-2
-GRC22Footprints
-C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
-Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
-capacitor handsolder
-0
-2
-2
-GRC22Footprints
-D_0603_1608Metric_Castellated
-Diode SMD 0603 (1608 Metric), castellated end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-diode castellated
-0
-2
-2
-GRC22Footprints
-D_0805_2012Metric_Castellated
-Diode SMD 0805 (2012 Metric), castellated end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
-diode castellated
-0
-2
-2
-GRC22Footprints
-EC3SAW-24S12P
-
-
-0
-7
-7
-GRC22Footprints
-FUSE_0154004.DRTL
-
-
-0
-2
-2
-GRC22Footprints
-LM311PW
-
-
-0
-8
-8
-GRC22Footprints
-MOLEX_2002411114
-
-
-0
-4
-4
-GRC22Footprints
-Molex
-WR-BHD 2.54mm Male Box Header, 6 Pins
-
-0
-6
-6
-GRC22Footprints
-NE555PSRE4
-
-
-0
-8
-8
-GRC22Footprints
-OPTO_4N35SM
-
-
-0
-6
-6
-GRC22Footprints
-PinHeader_1x01_P2.54mm_Vertical
-Through hole straight pin header, 1x01, 2.54mm pitch, single row
-Through hole pin header THT 1x01 2.54mm single row
-0
-1
-1
-GRC22Footprints
-PinHeader_1x02_P2.54mm_Vertical
-Through hole straight pin header, 1x02, 2.54mm pitch, single row
-Through hole pin header THT 1x02 2.54mm single row
-0
-2
-2
-GRC22Footprints
-R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
-Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
-resistor handsolder
-0
-2
-2
-GRC22Footprints
-R_0805_2012Metric_Pad1.20x1.40mm_HandSolder
-Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
-resistor handsolder
-0
-2
-2
-GRC22Footprints
-SOD57-10
-<B>DIODE</B><p>diameter 4 mm, vertical, grid 10.16 mm
-
-0
-2
-2
-GRC22Footprints
-TE_8PCV-02-006
-
-
-0
-2
-2
-GRC22Footprints
-TO229P990X238-4N
-
-
-0
-3
-3
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -80534,6 +80387,195 @@ test point THT pad
 0
 1
 1
+TractiveSystemLib
+2N7002H6327XTSA2
+
+
+0
+3
+3
+TractiveSystemLib
+256Mount
+
+
+0
+0
+0
+TractiveSystemLib
+878310819
+
+
+0
+8
+8
+TractiveSystemLib
+BZT03C12-TR
+
+
+0
+3
+3
+TractiveSystemLib
+CAPE830X690N
+
+
+0
+2
+2
+TractiveSystemLib
+CONV_SPBW06F-12
+
+
+0
+7
+7
+TractiveSystemLib
+CUI_TBL001-500-02GY-2GY
+
+
+0
+4
+2
+TractiveSystemLib
+C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor handsolder
+0
+2
+2
+TractiveSystemLib
+DFN400X400X80-9N
+
+
+0
+9
+9
+TractiveSystemLib
+D_0805_2012Metric_Castellated
+Diode SMD 0805 (2012 Metric), castellated end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+diode castellated
+0
+2
+2
+TractiveSystemLib
+EC3SAW-24S12P
+
+
+0
+7
+7
+TractiveSystemLib
+FUSE_0154004.DRTL
+
+
+0
+2
+2
+TractiveSystemLib
+LM311PW
+
+
+0
+8
+8
+TractiveSystemLib
+Lm317
+
+
+0
+4
+4
+TractiveSystemLib
+MOLEX_2002411114
+
+
+0
+4
+4
+TractiveSystemLib
+Molex
+WR-BHD 2.54mm Male Box Header, 6 Pins
+
+0
+6
+6
+TractiveSystemLib
+NE555PSRE4
+
+
+0
+8
+8
+TractiveSystemLib
+OPTO_4N35SM
+
+
+0
+6
+6
+TractiveSystemLib
+PT01-D120K2-B103
+
+
+0
+3
+3
+TractiveSystemLib
+PinHeader_1x01_P2.54mm_Vertical
+Through hole straight pin header, 1x01, 2.54mm pitch, single row
+Through hole pin header THT 1x01 2.54mm single row
+0
+1
+1
+TractiveSystemLib
+PinHeader_1x02_P2.54mm_Vertical
+Through hole straight pin header, 1x02, 2.54mm pitch, single row
+Through hole pin header THT 1x02 2.54mm single row
+0
+2
+2
+TractiveSystemLib
+R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+TractiveSystemLib
+R_0805_2012Metric_Pad1.20x1.40mm_HandSolder
+Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+TractiveSystemLib
+SOD57-10
+<B>DIODE</B><p>diameter 4 mm, vertical, grid 10.16 mm
+
+0
+2
+2
+TractiveSystemLib
+SOT91P240X110-3N
+
+
+0
+3
+3
+TractiveSystemLib
+TE_8PCV-02-006
+
+
+0
+2
+2
+TractiveSystemLib
+TO229P990X238-4N
+
+
+0
+3
+3
 Transformer_SMD
 Pulse_P0926NL
 SMT Gate Drive Transformer, 1:1:1, 8.0x6.3x5.3mm (https://productfinder.pulseeng.com/products/datasheets/SPM2007_61.pdf)

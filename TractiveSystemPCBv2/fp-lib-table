@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name GRC22Footprints)(type Legacy)(uri ${KIPRJMOD}/CAD/Footprints/GRC22Footprints.mod)(options "")(descr ""))
+  (lib (name TractiveSystemLib)(type KiCad)(uri ${KIPRJMOD}/CAD/Footprints/Individual)(options "")(descr ""))
 )

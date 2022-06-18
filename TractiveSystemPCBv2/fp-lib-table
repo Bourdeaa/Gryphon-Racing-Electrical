@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name TractiveSystemLib)(type KiCad)(uri ${KIPRJMOD}/CAD/Footprints/Individual)(options "")(descr ""))
+  (lib (name Footprints)(type KiCad)(uri ${KIPRJMOD}/CAD/Footprints)(options "")(descr ""))
 )

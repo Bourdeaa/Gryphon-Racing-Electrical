@@ -1,0 +1,11 @@
+(sym_lib_table
+  (lib (name "GRC_Comparator")(type "KiCad")(uri "${KIPRJMOD}/CAD/Symbols/Comparator.kicad_sym")(options "")(descr ""))
+  (lib (name "GRC_Connector")(type "KiCad")(uri "${KIPRJMOD}/CAD/Symbols/Connector.kicad_sym")(options "")(descr ""))
+  (lib (name "GRC_Connector_Generic")(type "KiCad")(uri "${KIPRJMOD}/CAD/Symbols/Connector_Generic.kicad_sym")(options "")(descr ""))
+  (lib (name "GRC_Device")(type "KiCad")(uri "${KIPRJMOD}/CAD/Symbols/Device.kicad_sym")(options "")(descr ""))
+  (lib (name "GRC_Diode")(type "KiCad")(uri "${KIPRJMOD}/CAD/Symbols/Diode.kicad_sym")(options "")(descr ""))
+  (lib (name "GRC_glv+")(type "KiCad")(uri "${KIPRJMOD}/CAD/Symbols/glv+.kicad_sym")(options "")(descr ""))
+  (lib (name "GRC_glv-")(type "KiCad")(uri "${KIPRJMOD}/CAD/Symbols/glv-.kicad_sym")(options "")(descr ""))
+  (lib (name "GRC_Isolator")(type "KiCad")(uri "${KIPRJMOD}/CAD/Symbols/Isolator.kicad_sym")(options "")(descr ""))
+  (lib (name "GRC_Timer")(type "KiCad")(uri "${KIPRJMOD}/CAD/Symbols/Timer.kicad_sym")(options "")(descr ""))
+)

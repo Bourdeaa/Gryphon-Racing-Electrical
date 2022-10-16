@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name bspd)(type KiCad)(uri ${KIPRJMOD}/CAD/Footprints)(options "")(descr ""))
+)

@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "GRC_Connector")(type "KiCad")(uri "${KIPRJMOD}/CAD/Symbols/Connector_Generic.kicad_sym")(options "")(descr ""))
+  (lib (name "GRC_GLV-")(type "KiCad")(uri "${KIPRJMOD}/CAD/Symbols/glv-.kicad_sym")(options "")(descr ""))
+  (lib (name "GRC_GLV+")(type "KiCad")(uri "${KIPRJMOD}/CAD/Symbols/glv+.kicad_sym")(options "")(descr ""))
+)
